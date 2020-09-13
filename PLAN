@@ -15,7 +15,6 @@ INFOs, DOCs:
 http://www.fmc-modeling.org/category/projects/apache/amp/4_3Multitasking_server.html
 -------------------------------------------------------------------------------------
 2)  KEEP-ALIVE:
-
 -------------------------------------------------------------------------------------
 3)  TLS-CACHE:
 https://github.com/ARMmbed/mbedtls/blob/development/library/ssl_cache.c
@@ -28,5 +27,16 @@ https://raw.githubusercontent.com/ARMmbed/mbedtls/development/programs/ssl/ssl_f
 https://raw.githubusercontent.com/ARMmbed/mbedtls/development/programs/ssl/ssl_server2.c
 -------------------------------------------------------------------------------------
 4)  XATTR-USE:
-
+xattr: user.xcript="1" (string)
+IMPORTANT:  "user." namespace to use
+ext2 needs:  mount -o user_xattr  (option)
+EXTRA:
+  ->  can extend xattr usage for (setting http-)headers, eg.:
+      ~~  name="user.cserver_headers"  value="Content-Type: text/html\r\nCORS-Header: *"  ... etc.
+  ->  file-redirection,
+  ->  directory-access-control:  no-listing, rewrites, ... etc.
+https://man7.org/linux/man-pages/man5/attr.5.html
+https://man7.org/linux/man-pages/man2/getxattr.2.html
+https://man7.org/linux/man-pages/man2/setxattr.2.html
+https://man7.org/linux/man-pages/man2/listxattr.2.html
 -------------------------------------------------------------------------------------
