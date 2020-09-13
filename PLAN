@@ -1,0 +1,25 @@
+cserver2
+--------
+
+->  (2nd generation) https C web server (HTTP1.1)
+->  Platform: LINUX
+->  New objectives:
+     1)  PREFORK:     (still) forking server, but PREFORK model (process-pool),
+     2)  KEEP-ALIVE:  reusing connection & tls resources (with dynamic timeout),
+     3)  TLS-CACHE:   tls session caching on shared memory for process pool,
+     4)  XATTR-USE:   xattr utilizing for C scripts identification.
+
+INFOs, DOCs:
+-------------------------------------------------------------------------------------
+1)  PREFORK:
+http://www.fmc-modeling.org/category/projects/apache/amp/4_3Multitasking_server.html
+-------------------------------------------------------------------------------------
+2)  KEEP-ALIVE:
+
+-------------------------------------------------------------------------------------
+3)  TLS-CACHE:
+
+-------------------------------------------------------------------------------------
+4)  XATTR-USE:
+
+-------------------------------------------------------------------------------------
