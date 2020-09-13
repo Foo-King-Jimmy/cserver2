@@ -18,7 +18,14 @@ http://www.fmc-modeling.org/category/projects/apache/amp/4_3Multitasking_server.
 
 -------------------------------------------------------------------------------------
 3)  TLS-CACHE:
-
+https://github.com/ARMmbed/mbedtls/blob/development/library/ssl_cache.c
+https://tls.mbed.org/api/ssl_8h.html
+https://tls.mbed.org/api/net__sockets_8h.html
+https://github.com/ARMmbed/mbedtls/blob/development/library/ssl_tls.c
+https://github.com/ARMmbed/mbedtls/blob/development/library/ssl_srv.c
+https://github.com/ARMmbed/mbedtls/tree/development/programs/ssl
+https://raw.githubusercontent.com/ARMmbed/mbedtls/development/programs/ssl/ssl_fork_server.c
+https://raw.githubusercontent.com/ARMmbed/mbedtls/development/programs/ssl/ssl_server2.c
 -------------------------------------------------------------------------------------
 4)  XATTR-USE:
 
